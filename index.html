@@ -4,158 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="index.css" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
   <body>
     <!-- <div class="container">
-      <div class="bg-primary">container value</div>
-    </div>
-
-    <div class="container-fluid my-1">
-      <div class="bg-primary">container value</div>
-    </div>
-
-    <div class="container my-1">
-      <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1">
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="bg-primary">
-            <p>hello</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
       <div class="row">
-        <div class="col-sm-9 bg-dark-subtle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          blanditiis dolorum itaque dignissimos eius molestias. Dolorum fuga
-          dolor voluptas ducimus eum asperiores. Reiciendis culpa dolorum sit
-          iste adipisci necessitatibus ratione!
-
-          <div class="row">
-            <div class="col-8">
-              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-              <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-                sed dignissimos, quia repudiandae odit dolorum?
-              </div>
-            </div>
-
-            <div class="col-4">
-              <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-              <div>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Accusamus, quia!
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 bg-danger">
-          <ul>
-            <li>hello</li>
-            <li>world</li>
-            <li>sfa</li>
-            <li>asdfsd</li>
-          </ul>
+        <div class="col-6 flex-column">
+          <button class="btn btn-primary">blue</button>
+          <button class="btn btn-outline-primary btn-lg">blue</button>
+          <button class="btn btn-outline-danger btn-sm">blue</button>
+          <button class="btn btn-outline-dark btn-md">blue</button>
         </div>
       </div>
+    </div>
 
-      <div class="row d-flex justify-content-center align-items-start">
-        <div class="col-sm-4 col-xl-6">
-          <img src="images/pexels-rajesh-tp-1633578.jpg" alt="" />
-          <h4 class="text-center">Burger with vegetables</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            consequatur illum labore nemo commodi aliquam id quibusdam porro?
-            Perspiciatis, pariatur?
-          </p>
+    <div class="container mt-3">
+      <div class="row row-cols-4">
+        <div class="col">
+          <button class="btn btn-primary">
+            Notifications <span class="badge bg-secondary">4</span>
+          </button>
         </div>
-        <div class="col-sm-4 col-xl-6">
-          <img src="images/pexels-rajesh-tp-1633578.jpg" alt="" />
-          <h4 class="text-center">Burger with vegetables</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            consequatur illum labore nemo commodi aliquam id quibusdam porro?
-            Perspiciatis, pariatur?
-          </p>
-        </div>
-        <div class="col-sm-4 col-xl-6">
-          <img src="images/pexels-rajesh-tp-1633578.jpg" alt="" />
-          <h4 class="text-center">Burger with vegetables</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            consequatur illum labore nemo commodi aliquam id quibusdam porro?
-            Perspiciatis, pariatur?
-          </p>
+
+        <div class="col">
+          <button class="btn btn-secondary position-relative">
+            Notifications
+            <span
+              class="badge bg-primary position-absolute top-0 start-100 translate-middle"
+              >4</span
+            >
+          </button>
         </div>
       </div>
     </div> -->
 
     <div class="container">
-      <div
-        class="row g-0 bg-primary1 justify-content-center align-items-center"
-      >
-        <div class="col-md-4 bg-warning align-self-end">
-          Lorem ipsum dolor sit amet.
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./images/pizza.jpg"
+              class="img-fluid card-img-top"
+              alt="pizza.jpg"
+            />
+            <div class="card-body text-start">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quibusdam itaque! Illo, voluptatum. In delectus quaerat corporis
+                obcaecati corrupti id.
+              </p>
+              <a href="" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 bg-warning">Lorem ipsum dolor sit amet.</div>
-        <div class="col-md-4 bg-warning align-self-start">
-          Lorem ipsum dolor sit amet.
+
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./images/pizza.jpg"
+              class="img-fluid card-img-top"
+              alt="pizza.jpg"
+            />
+            <div class="card-body text-start">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quibusdam itaque! Illo, voluptatum. In delectus quaerat corporis
+                obcaecati corrupti id.
+              </p>
+              <a href="" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="./images/pizza.jpg"
+              class="img-fluid card-img-top"
+              alt="pizza.jpg"
+            />
+            <div class="card-body text-start">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quibusdam itaque! Illo, voluptatum. In delectus quaerat corporis
+                obcaecati corrupti id.
+              </p>
+              <a href="" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="container mt-5">
-      <div class="row g-0 text-center justify-content-between">
-        <div class="col-4 bg-primary text-white">
-          Lorem ipsum dolor sit amet.
-        </div>
-        <div class="col-4 bg-primary text-white">
-          Lorem ipsum dolor sit amet.
-        </div>
-        <div class="col-4 bg-primary text-white">
-          Lorem ipsum dolor sit amet.
-        </div>
-      </div>
-
-      <img
-        src="images/pexels-rajesh-tp-1633578.jpg"
-        class="img-fluid rounded-start-5 align-self-end"
-        alt=""
-      />
     </div>
 
     <script src="js/bootstrap.min.js"></script>
